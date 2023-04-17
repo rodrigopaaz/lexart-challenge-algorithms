@@ -1,4 +1,4 @@
-const getRandomID = () => {
+const generarId = () => {
   const letters =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
@@ -16,4 +16,6 @@ const getRandomID = () => {
     })
     .join([]);
 };
-console.log(getRandomID());
+
+const id = generarId();
+console.log(id);
